@@ -1,0 +1,11 @@
+.title{
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: clamp( 1rem, 3vw + 1rem, 4rem );
+    line-height: 1;
+    color: white;
+    z-index: 1001;
+}
