@@ -49,20 +49,24 @@ img{
         width: fit-content;
         position: absolute;
         margin: auto;
-        font-size: clamp( 2rem, 5vw + 1rem, 5rem );
         line-height: 1;
         color: white;
         padding-top: 20%;
         padding-left: 0;
         top: auto;
+        font-size: clamp( 2rem, 2.2vw + 1rem, 5rem );
+        -webkit-text-stroke: 3px black;
+        paint-order: stroke fill;
     }
 
     .pirate_bounty{
         width: fit-content;
         position: absolute;
-        font-size: clamp( 2rem, 5vw + 1rem, 4rem );
+        font-size: clamp( 2rem, 2.2vw + 1rem, 4rem );
         line-height: 1;
         color: white;
         padding-top: 35%;
+        -webkit-text-stroke: 3px black;
+        paint-order: stroke fill;
     }
 }
