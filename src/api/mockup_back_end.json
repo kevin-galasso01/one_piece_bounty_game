@@ -1,0 +1,24 @@
+{
+    "pirates": [
+        {
+            "img":"https://static.wikia.nocookie.net/onepiece/images/d/dd/Nami.png/revision/latest?cb=20201025153656&path-prefix=it",
+            "name": "Nami",
+            "bounty": "66,000,000฿"
+        },
+        {
+            "img":"https://static.wikia.nocookie.net/onepiece/images/b/b5/Lao_G.png/revision/latest?cb=20141203105635&path-prefix=it",
+            "name": "Lao-G",
+            "bounty": "61.000.000฿"
+        },
+        {
+            "img":"https://static.wikia.nocookie.net/onepiece/images/7/73/Van_Ooger.png/revision/latest?cb=20151005195718&path-prefix=it",
+            "name": "Van Ooger",
+            "bounty": "64,000,000฿"
+        },
+        {
+            "img":"https://static.wikia.nocookie.net/onepiece/images/3/32/Monkey_D._Rufy.png/revision/latest?cb=20150708165056&path-prefix=it",
+            "name": "Monkey D. Rufy",
+            "bounty": "1,500,000,000฿"
+        }
+    ]
+}
