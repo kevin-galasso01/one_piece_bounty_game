@@ -13,8 +13,8 @@
 @media only screen and (max-width: 933px) {
 
     .title{
-        font-size: clamp( 1rem, 2.2vw + 1rem, 5rem );
-        -webkit-text-stroke: 3px black;
+        font-size: clamp(5vw, 1.2rem, 3rem );
+        -webkit-text-stroke: 2.2px black;
         paint-order: stroke fill;
     }
 }

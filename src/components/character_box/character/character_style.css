@@ -22,7 +22,7 @@ img{
 .pirate_name{
     width: fit-content;
     position: absolute;
-    font-size: clamp( 2rem, 5vw + 1rem, 5rem );
+    font-size: clamp( 2rem, 5vw, 4rem );
     line-height: 1;
     color: white;
     top: 55%;
@@ -31,7 +31,7 @@ img{
 .pirate_bounty{
     width: fit-content;
     position: absolute;
-    font-size: clamp( 2rem, 5vw + 1rem, 4rem );
+    font-size: clamp( 2rem, 3rem, 4rem );
     line-height: 1;
     color: white;
     padding-top: 30%;
@@ -55,7 +55,7 @@ img{
         padding-left: 0;
         top: auto;
         font-size: clamp( 2rem, 2.2vw + 1rem, 5rem );
-        -webkit-text-stroke: 3px black;
+        -webkit-text-stroke: 2.2px black;
         paint-order: stroke fill;
     }
 
@@ -66,7 +66,7 @@ img{
         line-height: 1;
         color: white;
         padding-top: 35%;
-        -webkit-text-stroke: 3px black;
+        -webkit-text-stroke: 2.2px black;
         paint-order: stroke fill;
     }
 }
