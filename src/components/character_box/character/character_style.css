@@ -35,6 +35,26 @@ img{
     line-height: 1;
     color: white;
     padding-top: 30%;
+    animation: entrance 3s;
+}
+
+@keyframes entrance {
+    0% {
+        opacity: 0%;
+      }
+      100% {
+        opacity: 100%;;
+      }
+}
+
+.invisible_pirate_bounty{
+    width: fit-content;
+    position: absolute;
+    font-size: clamp( 2rem, 3rem, 4rem );
+    line-height: 1;
+    color: white;
+    padding-top: 30%;
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 933px) {

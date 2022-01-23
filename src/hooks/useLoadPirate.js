@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
 import piratesJson from '../api/mockup_back_end.json';
-
-const getRandomNum = (max) =>{
-    return Math.floor(Math.random() * max);
-}
+import { randomArrayOfNumGenerator } from "../scripts/randomPirateGenerator";
 
 const LoadPirate = () => {
     const [pirateState, setPirateState] = useState([]);
@@ -13,15 +10,7 @@ const LoadPirate = () => {
             return pirates
         })
 
-        const FirstRandomNum = getRandomNum(piratesArray.length);
-        const SecondRandomNum = getRandomNum(piratesArray.length);
-
-        //const arrayRandomNum = [FirstRandomNum, SecondRandomNum];
-        const arrayRandomPirates = [piratesArray[FirstRandomNum], piratesArray[SecondRandomNum]];
-
-        setPirateState(arrayRandomPirates);
-        //setPirateState(piratesArray);
-        
+        setPirateState(randomArrayOfNumGenerator(piratesArray));
     }, []);
     return { pirateState };
 };
